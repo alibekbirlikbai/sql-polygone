@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  sql_polygone:
+    image: mysql:latest
+    environment:
+      - MYSQL_ROOT_PASSWORD=test
+    ports:
+      - '3306:3306'
